@@ -339,7 +339,7 @@ body{
 
 .run-extra{
     display: flex;
-    margin: 30px 100px 100px 100px;
+    margin: 30px 100px 50px 100px;
     padding: 35px 25px 30px 35px;
     position: static;
     /* width: 100%; */
@@ -389,4 +389,48 @@ body{
     font-weight: 600;
     line-height: 22px;
     letter-spacing: 0px;
+}
+/* .training-img {
+    display: grid;
+    grid-template-columns: 323px 539px 388px;
+    margin: 30px 100px 100px 100px;
+     width: 1200px; 
+} */
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 32px 100px 0px 100px;
+}
+.row img{
+    width: 100%;
+    height: 220px;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1.5fr .70fr 1fr;
+    padding: 0px 100px 100px 100px;
+}
+.row2 img{
+    width: 100%;
+    height: 220px;
+}
+.training-excercise-title{
+    padding: 16px 100px 0px 100px;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.training-excercise-descr{
+    padding: 0px 100px 0px 100px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
 }
