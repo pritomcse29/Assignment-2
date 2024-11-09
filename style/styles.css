@@ -274,3 +274,65 @@ body{
    
 }
 
+.change-habit{
+    padding: 30px 100px 0px 100px;
+}
+.habit-img-part{
+    display: flex;
+    
+}
+.habit-description,.habit-title{
+  text-align: center;
+}
+
+.habit-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+.habit-image{
+    border-radius: 50%;
+}
+
+.habit-img-part h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.habit-img-part p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.habit-img-part1{
+    margin-right: 40px;
+    text-align: center;
+}
+.habit-img-part2{
+    margin-right: 40px;
+    text-align: center;
+}
+.habit-img-part3{
+    margin-right: 40px;
+    text-align: center;
+}
+.habit-img-part
+{
+    margin-top: 40px;
+}
