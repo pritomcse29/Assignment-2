@@ -409,7 +409,7 @@ body{
 .row2{
     display: grid;
     grid-template-columns: 1.5fr .70fr 1fr;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 100px 20px 100px;
     
 }
 .row2 img{
@@ -450,7 +450,7 @@ body{
     bottom: 133px;
 } */
 .bmi-calculator{
-    padding: 30px 100px 0px 100px;
+    padding: 0px 100px 0px 100px;
 }
 table, td, th {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -466,3 +466,231 @@ table, td, th {
     display: grid;
     grid-template-columns:1.5fr 2fr;
   }
+  .bmi-calculator-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .bmi-calculator-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  .bmi-calculator-chart-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .cal-bmi{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .bmi-title-des{
+    margin: 50px 204px 55px 204px;
+  }
+  th,td{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 80%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .cal-bmi-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  input[type="text"]{
+    border-radius: 8px;
+    padding: 12px 40px 12px ;
+    background: rgba(255, 255, 255, 0.1);
+    border:none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+ }
+  input[type="number"]{
+    border-radius: 8px;
+    padding: 12px 40px 12px ;
+    background: rgba(255, 255, 255, 0.1);
+    border:none;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  select{
+    border-radius: 8px;
+    padding: 12px 146px 9px 35px;
+    background: rgba(255, 255, 255, 0.1);
+    border:none;
+    color: rgba(255, 255, 255, 0.38);
+  }
+  select option{
+    text-align: left;
+    /* color: rgba(255, 255, 255, 0.1); */
+  }
+  
+  .select-two{
+    padding-right:312px;
+    margin-bottom: 8px;
+  }
+  .cal-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .meet-our-team-textdes{
+   width: 600px;
+   margin: 0px auto;
+  }
+  .meet-our-team-textdes h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .meet-our-team-textdes p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+  }
+  .row3,.row4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 165px 20px 100px;
+    gap:0px;
+  justify-content: center;
+  border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .row3 img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+  }
+ .row4 img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+  }
+  /* .meet-our-team{
+    
+  } */
+   footer{
+    padding: 66px 100px 35px 100px;
+   }
+   .footers{
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr;
+   }
+   /* .get-start1{
+    display: flex;
+   }
+   .get-start2{
+    display: flex;
+   }
+   .get-start3{
+    display: flex;
+   } */
+    .get-start1{
+        margin-right:100px;
+    }
+    .get-start1 h2{
+        color: rgb(230, 83, 60);
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .get-start1 p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left;
+    }
+    .get-start2 h2{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .get-start3 h2{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .get-start2>ul>li{
+        list-style: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .get-start3>ul>li{
+        list-style: none;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .footer-des{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }

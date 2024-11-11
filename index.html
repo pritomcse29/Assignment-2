@@ -117,8 +117,11 @@
 
     <!--BMI Calculator-->
     <div class="bmi-calculator">
-        <h2 class="bmi-calculator-title">BMI Calculator</h2>
-        <p class="bmi-calculator-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        <div class="bmi-title-des">
+            <h2 class="bmi-calculator-title">BMI Calculator</h2>
+            <p class="bmi-calculator-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        
         <div class="bmi-calculator-charts">
             <div class="bmi-calculator-chart">
                 <h2 class="bmi-calculator-chart-title">BMI Calculator Chart</h2>
@@ -150,8 +153,8 @@
                 </table>
             </div>
             <div class="calculate-bmi-part">
-                   <h2>Calculate your BMI</h2>
-                   <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                   <h2 class="cal-bmi">Calculate your BMI</h2>
+                   <p class="cal-bmi-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
                    <div class="calculate-form">
                         <input type="text" placeholder="Height/cm">
                         <input type="text" placeholder="Weight/kg">
@@ -159,34 +162,36 @@
                    <div class="calculate-form">
                     <input type="number" placeholder="Age">
                     <select>
-                        <option value="0">Sex</option>
+                        <option class="option-zero" value="0">Sex</option>
                         <option value="1">Male</option>
                         <option value="2">Female</option>
                         <option value="3">Other</option>
                       </select> 
                </div>
                <div class="calculate-form">
-                <select>
-                  <option value="0">Select an activity factor</option>
+                <select class="select-two">
+                  <option class="option-zero" value="0">Select an activity factor</option>
                   <option value="1">Audi</option>
                   <option value="2">BMW</option>
                   <option value="3">Citroen</option>
                 </select>
               </div>
-              <button>calculate</button>
+              <button class="cal-btn">calculate</button>
             </div>
         </div>
     </div>
    <!--meet our team-->
    <div class="meet-our-team">
-        <h2>Meet Our Team</h2>
-        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-        <div class="row">
+        <div class="meet-our-team-textdes">
+            <h2>Meet Our Team</h2>
+             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        <div class="row3">
             <img src="images/trainer1.png" alt="">
             <img src="images/trainer2.png" alt="">
             <img src="images/trainer3.png" alt="">
         </div>
-        <div class="row2">
+        <div class="row4">
             <img src="images/trainer4.png" alt="">
             <img src="images/trainer5.png" alt="">
             <img src="images/trainer6.png" alt="">
@@ -194,12 +199,12 @@
    </div>
   </main>
    <footer>
-          <div class="footer">
-            <div>
+          <div class="footers">
+            <div class="get-start1">
                 <h2>Fitness</h2>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
             </div>
-            <div>
+            <div class="get-start2">
                 <h2>Get Started</h2>
                 <ul>
                     <li>Service</li>
@@ -208,7 +213,7 @@
                     <li>About Us</li>
                 </ul>
             </div>
-            <div>
+            <div class="get-start3">
                 <h2>Get Started</h2>
                 <ul>
                     <li>Fitness</li>
@@ -219,7 +224,7 @@
             </div>
           </div>
           <hr>
-          <p>All right reserved @Fitness 2024</p>
+          <p class="footer-des">All right reserved @Fitness 2024</p>
    </footer>
 </body>
 </html>
