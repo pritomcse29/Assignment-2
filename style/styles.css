@@ -1092,5 +1092,18 @@ ul{
     .habit-title{
         font-size: 25px;
     }
+    .calculate-form{
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    .calculate-form {
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+    .select-two {
+        /* padding-right: 312px; */
+        margin-bottom: 8px;
+        width: 400px;
+    }
 }
 
