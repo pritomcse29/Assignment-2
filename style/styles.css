@@ -14,9 +14,9 @@ body{
     background-color: red;
 
     position: absolute;
-    left:0;        /* Align to the left side */
-    top: 50%;       /* Vertically center it */
-    transform: translateY(-50%); /* Adjust for the circle's height */
+    left:0;       
+    top: 50%;     
+    transform: translateY(-50%); 
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -74,9 +74,7 @@ body{
         display:none;
     
 }
-
 /*responsive*/
-
 /*Medium Device*/
 @media only screen and (max-width: 992px) and (min-width:576px){
     /*Nav item style*/
@@ -117,10 +115,7 @@ body{
     }
    
 }
-
-
 /*get body section*/
-
 .get-body-section{
     display: flex;
     padding: 0px 100px 100px 100px;
@@ -185,10 +180,14 @@ body{
 
 .box1{
     position: absolute;
-    width: 193px;
+    /* width: 193px;
     height: 98px;
     left: 1107px;
-    top: 260px;
+    top: 260px; */
+    width: 15vw;
+    height: 17vh;
+    top: 30vh;
+    left: 80vw;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -199,12 +198,18 @@ body{
 .box2{
 
     position: absolute;
-    width: 193px;
+    /* width: 193px;
     height: 98px;
     left: 787px;
     right: -667px;
     top: 434.61px;
-    bottom: -426.61px;
+    bottom: -426.61px; */
+    width: 18vw;
+    height: 18vh;
+    left: 49vw;
+    top: 57vh;
+    right: -15vw;
+    bottom: -20vh;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -269,25 +274,24 @@ body{
         margin: 0px auto;
     }
     .box1 {
-    position: absolute;
-    width: 193px;
-    height: 98px;
-    left: 311px;
-    top: 721px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
-}
-    .box2 {
         position: absolute;
         width: 193px;
         height: 98px;
-        left: 71px;
+        left: 525px;
+        top: 812px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+.box2 {
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        left: 201px;
         right: -367px;
-        top: 947.61px;
-        bottom: -426.61px;
+        top: 1008.61px;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
@@ -597,7 +601,6 @@ table, td, th {
     background: rgba(255, 255, 255, 0.1);
     border:none;
     margin-right: 8px;
-    /* margin-bottom: 8px; */
   }
   select{
     border-radius: 8px;
@@ -608,7 +611,6 @@ table, td, th {
   }
   select option{
     text-align: left;
-    /* color: rgba(255, 255, 255, 0.1); */
   }
   
   .select-two{
@@ -666,7 +668,6 @@ table, td, th {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    /* padding: 0 60px; */
     margin-bottom: 25px;
     justify-content: center;
 }
@@ -688,7 +689,6 @@ table, td, th {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    /* background-color: rgba(0, 0, 0, 0.6);  */
     color: white;
     padding: 5px 10px;
     font-size: 16px;
@@ -697,23 +697,12 @@ table, td, th {
     text-align: left;
 }
 
-/* Optionally, for responsive behavior */
-@media (max-width: 768px) {
-    /* .row3, .row4 {
-        grid-template-columns: repeat(2, 1fr);
-    } */
-}
-
 @media (max-width: 480px) {
     .row3, .row4 {
-        grid-template-columns: 1fr; /* 1 column on very small screens */
+        grid-template-columns: 1fr; 
     }
 }
-
-
-
   /**footer**/
-
    footer{
     padding: 66px 100px 35px 100px;
    }
@@ -804,11 +793,8 @@ table, td, th {
         font-style: italic !important;
     }
 /***********responsive**************/
-
 /*Medium Device*/
 @media only screen and (max-width: 992px) and (min-width:576px){
-
-
 /***footer****/
 footer{
     padding: 0px;
@@ -920,7 +906,6 @@ ul{
 
 .get-body-textbtn-part {
     padding-top: 40px;
-    /* margin-right: 60px; */
     width: 599px;
     height: 440px;
     margin: 0px auto;
@@ -997,7 +982,6 @@ ul{
     }
     .row3 img {
         width: 100%;
-        /* width: 300px; */
         height: 212px;
     }
     
@@ -1017,7 +1001,6 @@ ul{
     .bmi-calculator-charts{
         display: grid;
         grid-template-columns: 1fr;
-        /* margin: 25px 15px 25px 15px; */
         margin: 0px;
         padding: 15px 15px 15px 15px;
     }
@@ -1028,9 +1011,6 @@ ul{
         display: grid;
         grid-template-columns: 1fr ;
     }
-    /* .get-start1{
-        grid-column: span 2;
-    } */
     .get-body-textbtn-part{
         width: 100%;
     }
@@ -1101,9 +1081,24 @@ ul{
         grid-template-columns: 200px 200px;
     }
     .select-two {
-        /* padding-right: 312px; */
         margin-bottom: 8px;
         width: 400px;
+    }
+    .box1 {
+        position: absolute;
+        width: 29vw;
+        height: 17vh;
+        top: 109vh;
+        left: 63vw;
+    }
+    .box2 {
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        left: 28px;
+        right: -588px;
+        top: 891.61px;
+        bottom: -426.61px;
     }
 }
 
