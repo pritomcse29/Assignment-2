@@ -964,7 +964,18 @@ ul{
     margin-top: 58px;
   }
 }
+@media only screen and (max-width:768px){
+    .calculate-form {
+        display: grid;
+        grid-template-columns: 200px 200px;
+}
+.select-two {
+    /* padding-right: 312px; */
+    margin-bottom: 8px;
+    width: 400px;
+}
 
+}
 
 @media only screen and (max-width:576px){
     .choose-reason {
